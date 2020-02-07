@@ -30,7 +30,7 @@ open class ToastView: UIView {
   }
 
   /// The inset of the text label.
-  @objc open dynamic var textInsets = UIEdgeInsets(top: 6, left: 10, bottom: 6, right: 10)
+  @objc open dynamic var textInsets = UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16)
 
   /// The color of the text label's text.
   @objc open dynamic var textColor: UIColor? {
